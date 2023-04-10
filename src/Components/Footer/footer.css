@@ -1,0 +1,19 @@
+.footerall{
+    width: 70%;
+    margin: 0px auto;
+    padding: 100px 0px;
+}
+.footerbg{
+    width: 100%;
+    height: auto;
+    background-color: #1F262D;
+    color: white; 
+
+}
+ul{
+    list-style-type: none;
+    line-height: 25px;
+}
+ul li{
+    margin: 5px 0px;
+}

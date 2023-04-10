@@ -1,0 +1,41 @@
+.gmap_iframe{
+    width: 100%;
+    height: 550px;
+}
+.contactfor{
+    width: 100%;
+    height: 550px;
+    background-image: url("../../../public//images/contact01.png");
+}
+.telnumber{
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+}
+.iconsclass{
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FCD318;
+    color: white;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+@media(max-width:450px){
+    .MuiTextField-root {
+        margin: 16px;
+        width: 30ch !important;
+    }
+}
+@media(max-width:550px){
+    .iconsclass{
+        width: 25px;
+        height: 25px;
+    }
+    .number{
+        font-size: 10px;
+    }
+}

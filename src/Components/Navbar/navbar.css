@@ -1,0 +1,65 @@
+.BigMenu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+.menuCategory ul{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    list-style-type: none;
+    margin-top: 15px;
+}
+.menuCategory ul li{
+    margin: 15px 15px;
+    line-height: 10px;
+}
+.flagCricle{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid grey;
+    border-radius: 50%;
+}
+.flagCricle img{
+    width: 18px;
+}
+
+/* mobile css */
+.MobileMenuAll{
+    display: none;
+    width: 80%;
+    margin: 20px auto;
+
+}
+.Mobilenav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.MobileIptionMenu{
+    position: absolute;
+    top: 90px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #17365E;
+    color: white;
+    z-index: 10100;
+}
+.mobileli{
+    margin: 10px 5px;
+}
+@media(max-width:1430px){
+    .BigMenu{
+        display: none;
+    }
+    .MobileMenuAll{
+        display: block;
+    }
+}
